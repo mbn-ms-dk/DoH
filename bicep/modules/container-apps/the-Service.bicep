@@ -31,7 +31,7 @@ module buildtheService 'br/public:deployment-scripts/build-acr:2.0.1' = {
   params: {
     AcrName: containerRegistryName
     location: location
-    gitRepositoryUrl:  'https://github.com/mbn-ms-dk/DaprTrafficControl.git'
+    gitRepositoryUrl:  'https://github.com/mbn-ms-dk/DoH.git'
     dockerfileDirectory: 'blazorserver-singleOrg'
     imageName: 'saps/theService'
     imageTag: 'latest'
