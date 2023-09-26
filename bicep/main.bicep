@@ -30,6 +30,22 @@ param theServiceName string
 @description('The target port for the service.')
 param thePortNumber int = 44318
 
+
+// ------------------
+// RESOURCES
+// ------------------
+
+module containerAppsEnvironment 'modules/container-apps-environment.bicep' ={
+  name: 'containerAppsEnv-${uniqueString(resourceGroup().id)}'
+  params: {
+   containerAppsEnvironmentName: containerAppsEnvironmentName
+   logAnalyticsWorkspaceName: logAnalyticsWorkspaceName
+   applicationInsightName: applicationInsightName
+    location: location
+    tags: tags
+  }
+}
+
 module acr 'modules/container-registry.bicep' = {
   name: 'acr-${uniqueString(resourceGroup().id)}'
   params: {
