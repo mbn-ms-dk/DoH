@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = blazorserver-singleOrg
+build_property.RootNamespace = blazorserver-singleOrg
+build_property.ProjectDir = c:\Dev\Projects\MyOrg\blazorserver-singleOrg\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Dev\Projects\MyOrg\blazorserver-singleOrg
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Pages/UserClaims.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckNsYWltcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Dev/Projects/MyOrg/blazorserver-singleOrg/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
