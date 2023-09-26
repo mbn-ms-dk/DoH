@@ -15,11 +15,11 @@ COPY ["blazorserver-singleOrg/blazorserver-singleOrg.csproj", "blazorserver-sing
 RUN dotnet restore "blazorserver-singleOrg/blazorserver-singleOrg.csproj"
 COPY . .
 WORKDIR "/src/blazorserver-singleOrg"
-RUN dotnet build "blazorserver-singleOrg.csproj" -c $configuration -o /app/build
+RUN dotnet build "blazorserver-singleOrg.csproj" -c Release -o /app/build
 
 FROM build AS publish
 ARG configuration=Release
-RUN dotnet publish "blazorserver-singleOrg.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "blazorserver-singleOrg.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
