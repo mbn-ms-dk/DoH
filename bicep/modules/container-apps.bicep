@@ -50,7 +50,7 @@ resource containerUserAssignedManagedIdentity 'Microsoft.ManagedIdentity/userAss
 }
 
 resource containerRegistryPullRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = if(!empty(containerRegistryName)) {
-  name: guid(guid(resourceGroup().id), containerRegistry.id, containerUserAssignedManagedIdentity.id) 
+  name: guid(resourceGroup().id, containerUserAssignedManagedIdentity.id, containerRegistryPullRoleGuid) 
   scope: containerRegistry
   properties: {
     principalId: containerUserAssignedManagedIdentity.properties.principalId
