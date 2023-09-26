@@ -67,3 +67,4 @@ C:\Dev\Projects\MyOrg\blazorserver-singleOrg\obj\Debug\net7.0\refint\blazorserve
 C:\Dev\Projects\MyOrg\blazorserver-singleOrg\obj\Debug\net7.0\blazorserver-singleOrg.pdb
 C:\Dev\Projects\MyOrg\blazorserver-singleOrg\obj\Debug\net7.0\blazorserver-singleOrg.genruntimeconfig.cache
 C:\Dev\Projects\MyOrg\blazorserver-singleOrg\obj\Debug\net7.0\ref\blazorserver-singleOrg.dll
+C:\Dev\Projects\MyOrg\blazorserver-singleOrg\obj\Debug\net7.0\blazorserver-singleOrg.sourcelink.json
