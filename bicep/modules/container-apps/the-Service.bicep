@@ -33,7 +33,7 @@ module buildtheService 'br/public:deployment-scripts/build-acr:2.0.1' = {
     location: location
     gitRepositoryUrl:  'https://github.com/mbn-ms-dk/DoH.git'
     dockerfileDirectory: 'blazorserver-singleOrg'
-    imageName: 'spas/theservice'
+    imageName: 'spas/the-service'
     imageTag: 'latest'
     cleanupPreference: 'Always'
   }
